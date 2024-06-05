@@ -18,11 +18,7 @@ This project is a Node.js and Express-based API for managing products and carts 
 
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone [<repository_url>](https://github.com/GuzmanOlivera/PreEntrega1OliveraFervenzaAlvaroGuzman)
-    cd [<repository_directory>]./PreEntrega1OliveraFervenzaAlvaroGuzman)
-    ```
+1. Clone the repository.
 
 2. Initialize `package.json`:
     ```bash
@@ -35,47 +31,7 @@ This project is a Node.js and Express-based API for managing products and carts 
     npm install nodemon -D
     ```
 
-4. Update `package.json`:
-    ```json
-    {
-      "name": "preentrega1oliverafervenzaalvaroguzman",
-      "version": "1.0.0",
-      "main": "index.js",
-      "type": "module",
-      "scripts": {
-        "dev": "nodemon src/app.js"
-      },
-      "keywords": [],
-      "author": "",
-      "license": "ISC",
-      "description": "",
-      "devDependencies": {
-        "nodemon": "^3.1.3"
-      },
-      "dependencies": {
-        "express": "^4.19.2"
-      }
-    }
-    ```
-
-5. Create the directory structure:
-    ```
-    .
-    ├── src
-    │   ├── app.js
-    │   ├── routes
-    │   │   ├── products.router.js
-    │   │   └── carts.router.js
-    │   └── managers
-    │       ├── productManager.js
-    │       └── cartManager.js
-    ├── data
-    │   ├── products.json
-    │   └── carts.json
-    └── package.json
-    ```
-
-6. Start the server:
+4. Start the server:
     ```bash
     npm run dev
     ```
