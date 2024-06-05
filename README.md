@@ -20,8 +20,8 @@ This project is a Node.js and Express-based API for managing products and carts 
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone [<repository_url>](https://github.com/GuzmanOlivera/PreEntrega1OliveraFervenzaAlvaroGuzman)
+    cd [<repository_directory>]./PreEntrega1OliveraFervenzaAlvaroGuzman)
     ```
 
 2. Initialize `package.json`:
