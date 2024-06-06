@@ -2,19 +2,19 @@
 
 This project is a Node.js and Express-based API for managing products and carts in an e-commerce application. The server listens on port 8080 and provides the following endpoints:
 
-## Features
+## Products
 
-- **Products**
-  - List all products with optional limit
-  - Get a single product by ID
-  - Create a new product
-  - Update an existing product
-  - Delete a product
+- **List all products with optional limit**: `GET /api/products?limit=<number>`
+- **Get a single product by ID**: `GET /api/products/:pid`
+- **Create a new product**: `POST /api/products`
+- **Update an existing product**: `PUT /api/products/:pid`
+- **Delete a product**: `DELETE /api/products/:pid`
 
-- **Carts**
-  - Create a new cart
-  - Get products in a cart by ID
-  - Add a product to a cart
+## Carts
+
+- **Create a new cart**: `POST /api/carts`
+- **Get products in a cart by ID**: `GET /api/carts/:cid`
+- **Add a product to a cart**: `POST /api/carts/:cid/product/:pid`
 
 ## Installation
 
