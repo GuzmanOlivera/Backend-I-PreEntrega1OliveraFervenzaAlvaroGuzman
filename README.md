@@ -50,14 +50,14 @@ This project is a Node.js and Express-based API for managing products and carts 
   ```
 
 #### Get a product by ID
-- **Endpoint:** GET /api/products/:pid
+- **Endpoint:** `GET /api/products/:pid`
 - **Example:**
  ```bash
  curl http://localhost:8080/api/products/1
  ```
 
 #### Create a new product
-- **Endpoint:** POST /api/products
+- **Endpoint:** `POST /api/products`
 - **Body:**
  ```json
 {
@@ -77,7 +77,7 @@ curl -X POST http://localhost:8080/api/products \
   -d '{"title": "New Product", "description": "Description of the new product", "code": "ABC123", "price": 100, "stock": 50, "category": "Category", "thumbnails": ["url1", "url2"]}'
  ```
 #### Update a product
-- **Endpoint:** PUT /api/products/:pid
+- **Endpoint:** `PUT /api/products/:pid`
 - **Body:**
 
  ```json
@@ -94,7 +94,7 @@ curl -X POST http://localhost:8080/api/products \
  ```
 
 #### Delete a product
-- **Endpoint:** DELETE /api/products/:pid
+- **Endpoint:** `DELETE /api/products/:pid`
 - **Example:**
  ```bash
 curl -X DELETE http://localhost:8080/api/products/1
@@ -102,20 +102,20 @@ curl -X DELETE http://localhost:8080/api/products/1
 
 ### Carts
 #### Create a new cart
-- **Endpoint:** POST /api/carts
+- **Endpoint:** `POST /api/carts`
 - **Example:**
  ```bash
 curl -X POST http://localhost:8080/api/carts
  ```
 #### Get products in a cart by ID
-- **Endpoint:** GET /api/carts/:cid
+- **Endpoint:** `GET /api/carts/:cid`
 - **Example:**
  ```bash
 curl http://localhost:8080/api/carts/1
  ```
 
 #### Add a product to a cart
-- **Endpoint:** POST /api/carts/:cid/product/:pid
+- **Endpoint:** `POST /api/carts/:cid/product/:pid`
 - **Example:**
  ```bash
 curl -X POST http://localhost:8080/api/carts/1/product/1
