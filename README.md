@@ -125,7 +125,7 @@ curl -X POST http://localhost:8080/api/carts/1/product/1
 
 Postman is a useful tool for testing and interacting with APIs. Here are some example requests you can make using Postman:
 
-#### Products
+### Products
 
 **List all products**
 
@@ -158,7 +158,7 @@ Postman is a useful tool for testing and interacting with APIs. Here are some ex
     "thumbnails": ["url1", "url2"]
   }
 
-### Update a product
+**Update a product**
 
 - **Method**: PUT
 - **URL**: `http://localhost:8080/api/products/1`
@@ -169,7 +169,7 @@ Postman is a useful tool for testing and interacting with APIs. Here are some ex
     "stock": 40
   }
 
-### Delete a product
+**Delete a product**
 
 - **Method**: DELETE
 - **URL**: `http://localhost:8080/api/products/1`
